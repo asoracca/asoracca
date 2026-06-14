@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi, I'm asoracca
 
-<!--
-**asoracca/asoracca** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm building a quant research portfolio around markets I actually trade and study: leveraged ETFs, options premium, space stocks, semiconductors, and portfolio risk.
 
-Here are some ideas to get you started:
+## Current Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### SOXL Vol Surface
+Options volatility dashboard and put-selling signal research for SOXL.
+
+### New Space Radar
+Event-driven analysis for RKLB, ASTS, and LUNR using abnormal returns, anomaly detection, and catalyst tracking.
+
+### Leveraged ETF Risk Lab
+Risk dashboard for a concentrated leveraged ETF portfolio, including beta, drawdown, correlation, stress tests, and rebalance recommendations.
+
+## Current Focus
+
+I am learning how to turn aggressive market ideas into testable, risk-aware quantitative systems.
