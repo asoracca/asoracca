@@ -1,45 +1,46 @@
-# Hi, I'm Anggun 👋
+# Hi, I'm Anggun
 
-**Quant-minded software builder** working at the intersection of markets and code — from stochastic-volatility models to shipped, full-stack products. I like building things that are both *rigorous* and *real*.
+Incoming Computer Science and Mathematics student at UW–Madison, interested in quantitative finance, market structure, and software engineering.
 
-🎯 Seeking a **Summer 2027 Software Engineering internship** · open to quant / fintech too
-🧰 Python · TypeScript · React/Next.js · Postgres · a healthy obsession with validating my own work
+I build projects that help me understand how trading systems work—from exchange matching and portfolio simulation to options research and full-stack applications. I am seeking Summer 2027 software engineering, quantitative development, and fintech opportunities.
 
----
+## Featured projects
 
-## 🚀 Featured Projects
+### [Redline Exchange](https://github.com/asoracca/redline-exchange)
 
-### 📈 [TradeGoons](https://github.com/asoracca/tradejournal) — full-stack AI trading app *(shipped & live)*
-A paper- and real-trading journal with live market data, AI coaching, options chains, portfolio analytics, and a risk-visualizing UI. Installable as a phone app.
-**Stack:** Next.js · TypeScript · Prisma · Supabase (Postgres) · Vercel · Gemini API
+A deterministic Python limit-order-book matching engine with price-time priority, partial fills, cancellations, invariant tests, and throughput benchmarks.
 
-### 🌊 [soxl-vol-surface](https://github.com/asoracca/soxl-vol-surface) — options volatility research
-IV rank & percentile signals, GARCH volatility forecasting, Black-Scholes Greeks, a 3D volatility surface, and a **Heston stochastic-volatility model** that reproduces the implied-vol smile a constant-vol model can't.
+### [Backtest Engine](https://github.com/asoracca/backtest-engine)
 
-### 🔬 [momentum-factor-backtest](https://github.com/asoracca/momentum-factor-backtest) — strategies + honest validation
-A cross-sectional momentum backtest, then the part most people skip: a **Fama-French factor regression** (which showed the strategy has *no alpha* — just momentum-factor exposure) and a **cointegration pairs stat-arb** study validated with out-of-sample splits, transaction costs, and a multiple-testing correction.
+An event-driven portfolio simulator with next-bar execution, transaction costs, target-weight sizing, order rejection, auditable ledgers, and deterministic tests.
 
-### 🛡️ [leveraged-etf-risk-lab](https://github.com/asoracca/leveraged-etf-risk-lab) — portfolio risk analytics
-Sharpe/Sortino, beta, drawdown, and stress tests for a leveraged-ETF book, plus a **Hidden Markov Model** that classifies the market into bull/bear regimes from return patterns alone.
+### [TradeGoons](https://github.com/asoracca/tradejournal)
 
-### 🛰️ [new-space-radar](https://github.com/asoracca/new-space-radar) — event study
-Measures cumulative abnormal returns (CAR) around launches and contract news for space-sector equities, with significance testing.
+A deployed paper-trading journal and educational trade coach built with Next.js, TypeScript, Prisma, PostgreSQL, and Gemini.
 
----
+### [SOXL Volatility Surface](https://github.com/asoracca/soxl-vol-surface)
 
-## 🧠 How I work
+Options research covering implied-volatility rank, Greeks, volatility surfaces, GARCH forecasting, Heston modeling, and walk-forward evaluation.
 
-- **Build strategies *and* try to break them.** A pretty backtest is the start of due diligence, not the end — out-of-sample tests, cost modeling, and multiple-testing corrections are non-negotiable.
-- **Ship fast, then harden.** I use modern AI tooling to move quickly, then dig into the code so I actually understand what I shipped.
-- **Make it legible.** Every repo has a README that explains the *why*, the method, and the result.
+### [Momentum Factor Backtest](https://github.com/asoracca/momentum-factor-backtest)
 
-## 🛠️ Tech
+A cross-sectional momentum study with walk-forward validation, transaction costs, factor regression, and multiple-testing-aware pairs research.
 
-`Python` · `pandas` · `NumPy` · `statsmodels` · `SciPy` · `TypeScript` · `React` · `Next.js` · `Prisma` · `PostgreSQL` · `Supabase` · `Vercel` · `Git`
+### [Leveraged ETF Risk Lab](https://github.com/asoracca/leveraged-etf-risk-lab)
 
-## 📫 Reach me
+Portfolio analytics for leveraged and high-volatility holdings, including drawdown, beta, stress tests, risk contribution, and regime analysis.
 
-- LinkedIn: https://www.linkedin.com/in/anggun-soracca-jaya-51a329236/?skipRedirect=true
-- Email: [add your email]
+## What I care about
 
-<!-- Optional: add your school/major and expected grad year here -->
+- Correct timing and accounting in backtests
+- Honest out-of-sample evaluation and clear failure analysis
+- Tested software with understandable architecture
+- Turning market questions into reproducible experiments
+
+## Tools
+
+`Python` · `pandas` · `NumPy` · `SciPy` · `statsmodels` · `TypeScript` · `React` · `Next.js` · `Prisma` · `PostgreSQL` · `Git`
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/anggun-soracca-jaya-51a329236/)
