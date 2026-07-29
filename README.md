@@ -40,6 +40,6 @@ Measures cumulative abnormal returns (CAR) around launches and contract news for
 ## 📫 Reach me
 
 - LinkedIn: https://www.linkedin.com/in/anggun-soracca-jaya-51a329236/?skipRedirect=true
-- Email: [add your email]
+- Email: anggunsoraccaj@gmail.com
 
 <!-- Optional: add your school/major and expected grad year here -->
