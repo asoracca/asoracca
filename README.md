@@ -1,45 +1,25 @@
-# Hi, I'm Anggun 👋
+I'm Anggun, a student interested in software engineering, quantitative research, and market structure.
 
-**Quant-minded software builder** working at the intersection of markets and code — from stochastic-volatility models to shipped, full-stack products. I like building things that are both *rigorous* and *real*.
+Seeking **Summer 2027 SWE internships**, including quant development and fintech.
 
-🎯 Seeking a **Summer 2027 Software Engineering internship** · open to quant / fintech too
-🧰 Python · TypeScript · React/Next.js · Postgres · a healthy obsession with validating my own work
+## Selected projects
 
----
+- **[Redline Exchange](https://github.com/asoracca/redline-exchange)** — Python/C++ price-time matching with integer ticks, cancel/replace rules, and parity tests. [Synthetic benchmarks](https://github.com/asoracca/redline-exchange/blob/main/docs/performance/STUDY.md) measure single-host API performance, excluding networking and persistence.
+- **[TradeGoons](https://github.com/asoracca/tradejournal)** — Paper-trade tracking through TypeScript/Next.js routes and Prisma-backed storage, with optional Gemini commentary. [Demo](https://tradejournal-three-liard.vercel.app) uses external market data; authentication is not yet implemented.
+- **[Numerical pricing](https://github.com/asoracca/soxl-vol-surface)** — Compares price/delta estimators against Black–Scholes at equal payoff budgets, using cross-fitted controls and scrambled Sobol sampling. [Results](https://github.com/asoracca/soxl-vol-surface/blob/main/docs/NUMERICAL_RESULTS.md) include a rare-payoff failure case.
+- **[Poker solver](https://github.com/asoracca/pokeringdumdum)** — Studies hidden-information decisions with CFR/CFR+ for Kuhn poker and exact best-response evaluation. [Tests](https://github.com/asoracca/pokeringdumdum/blob/main/tests/test_solver.py) check equilibrium value and exploitability.
+- **[Backtest Engine](https://github.com/asoracca/backtest-engine)** — Prevents same-close execution with next-open fills, transaction costs, and auditable ledgers. [Tests](https://github.com/asoracca/backtest-engine/blob/main/tests/test_engine.py) check timing and cash accounting on synthetic bars.
 
-## 🚀 Featured Projects
+Also: [momentum research](https://github.com/asoracca/momentum-factor-backtest) uses a chronological holdout; its separate historical demo regression did not find statistically significant alpha.
 
-### 📈 [TradeGoons](https://github.com/asoracca/tradejournal) — full-stack AI trading app *(shipped & live)*
-A paper- and real-trading journal with live market data, AI coaching, options chains, portfolio analytics, and a risk-visualizing UI. Installable as a phone app.
-**Stack:** Next.js · TypeScript · Prisma · Supabase (Postgres) · Vercel · Gemini API
+## Skills in code
 
-### 🌊 [soxl-vol-surface](https://github.com/asoracca/soxl-vol-surface) — options volatility research
-IV rank & percentile signals, GARCH volatility forecasting, Black-Scholes Greeks, a 3D volatility surface, and a **Heston stochastic-volatility model** that reproduces the implied-vol smile a constant-vol model can't.
+| Skill | Evidence |
+|---|---|
+| Python | [Numerical estimators](https://github.com/asoracca/soxl-vol-surface/blob/main/src/numerical_methods.py) |
+| C++ | [Matching core](https://github.com/asoracca/redline-exchange/blob/main/cpp/core.hpp) · [native tests](https://github.com/asoracca/redline-exchange/blob/main/cpp/test_core.cpp) |
+| TypeScript | [Application routes](https://github.com/asoracca/tradejournal/blob/main/app/api/trades/route.ts) · [UI](https://github.com/asoracca/tradejournal/blob/main/app/trades/page.tsx) |
 
-### 🔬 [momentum-factor-backtest](https://github.com/asoracca/momentum-factor-backtest) — strategies + honest validation
-A cross-sectional momentum backtest, then the part most people skip: a **Fama-French factor regression** (which showed the strategy has *no alpha* — just momentum-factor exposure) and a **cointegration pairs stat-arb** study validated with out-of-sample splits, transaction costs, and a multiple-testing correction.
+I use AI tooling in my development workflow.
 
-### 🛡️ [leveraged-etf-risk-lab](https://github.com/asoracca/leveraged-etf-risk-lab) — portfolio risk analytics
-Sharpe/Sortino, beta, drawdown, and stress tests for a leveraged-ETF book, plus a **Hidden Markov Model** that classifies the market into bull/bear regimes from return patterns alone.
-
-### 🛰️ [new-space-radar](https://github.com/asoracca/new-space-radar) — event study
-Measures cumulative abnormal returns (CAR) around launches and contract news for space-sector equities, with significance testing.
-
----
-
-## 🧠 How I work
-
-- **Build strategies *and* try to break them.** A pretty backtest is the start of due diligence, not the end — out-of-sample tests, cost modeling, and multiple-testing corrections are non-negotiable.
-- **Ship fast, then harden.** I use modern AI tooling to move quickly, then dig into the code so I actually understand what I shipped.
-- **Make it legible.** Every repo has a README that explains the *why*, the method, and the result.
-
-## 🛠️ Tech
-
-`Python` · `pandas` · `NumPy` · `statsmodels` · `SciPy` · `TypeScript` · `React` · `Next.js` · `Prisma` · `PostgreSQL` · `Supabase` · `Vercel` · `Git`
-
-## 📫 Reach me
-
-- LinkedIn: https://www.linkedin.com/in/anggun-soracca-jaya-51a329236/?skipRedirect=true
-- Email: anggunsoraccaj@gmail.com
-
-<!-- Optional: add your school/major and expected grad year here -->
+[LinkedIn](https://www.linkedin.com/in/anggun-soracca-jaya-51a329236/?skipRedirect=true) · [anggunsoraccaj@gmail.com](mailto:anggunsoraccaj@gmail.com)
